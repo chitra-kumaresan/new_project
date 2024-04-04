@@ -16,11 +16,7 @@ const BusComponent = () => {
     const [ticketPrice,setTicketPrice] = useState();
     const [noOfSeats,setNoOfSeats] = useState();
     const [busDate,setBusDate] = useState("");
-    //  const [selectedDate,setSelectedDate]=useState(null);
-
-    //    const handleDateChange = (date) => {
-    //     setSelectedDate(date);
-    //   }
+   
   //Make API call to POST Bus Details from Bus Inputs by Admin
     function saveBuses(e){
     e.preventDefault();
